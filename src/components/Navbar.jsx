@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import NavIcon from '../assets/svg-menu.svg'
+import Sound from '../assets/Howl.mp4'
 import '../styles/Navbar.scss';
 
  
@@ -15,10 +16,10 @@ const Navbar = () => {
 
     >
         <audio autoPlay loop={true}>
-            <source src='src\assets\Howl.mp4' />
+            <source src={Sound} />
         </audio>
         <label for="menu" className='navLabel'>
-            <img src="src\assets\svg-menu.svg" />
+            <img src={NavIcon} />
         </label>
         <input type="checkbox" id='menu' className='navInput' />
         
