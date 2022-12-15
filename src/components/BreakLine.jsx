@@ -1,10 +1,11 @@
 import React from 'react'
 import '../styles/BreakLine.scss'
+import BreakLines from '../assets/BreakLine.png'
 const BreakLine = () => {
   return (
     <>
     <picture>
-        <img src="src\assets\BreakLine.png" alt="" />
+        <img src={BreakLines} alt="" />
         </picture>
         </>
   )
