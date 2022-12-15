@@ -1,0 +1,68 @@
+.story {
+    background-image: url('../assets/StoryBg.png');
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: center bottom;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--tColor);
+    height: calc(100vh - 5rem);
+    margin: 1rem 8rem;
+    
+
+    h1 {
+        color: var(--pinkColor);
+        font-weight: 700;
+        hr {
+            margin: 0.3rem 45%;
+            width: 10%;
+            color: var(--mColor);
+        }
+    }
+
+}
+.dec img {
+    width: 150px;
+    position: absolute;
+    right: 80%;
+    bottom: 10%;
+}
+.dec2 img {
+    rotate: 90;
+    position: absolute;
+    width: 150px;
+    right: 10%;
+    bottom: 10%;
+    rotate: 120deg;
+}
+.cont {
+    height: 100vh;
+    background-image: url('../assets/Quill.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    text-align: center;
+   
+    p {
+        font-size: clamp(1.8rem, 2.7vw, 3rem);
+    }
+}
+@media screen and (max-width: 480px) {
+    .dec img {
+        display: none;
+    }
+    .dec2 img {
+        display: none;
+    }
+    .story {
+    opacity: 1;
+}
+}
+@media screen and (max-width: 700px) {
+    .story {
+        margin: 2rem;
+        background-position: bottom;
+        background-size: auto;
+       
+    }
+}

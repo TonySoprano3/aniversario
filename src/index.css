@@ -1,0 +1,28 @@
+:root {
+    /* Colors */
+    --mColor: #bc9d6e;
+    --sColor: #262626;
+    --tColor: #c8c8c8;
+    --stColor: #a0978b;
+    --subColor: #d4c8b7;
+    --pinkColor: #ffc0cb;
+    /* Text Size */
+
+    --pText: 1.6rem;
+    /* Transition */
+    --trans: 0.5s;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+p {
+    color: var(--tColor);
+}
+span {
+    color: var(--stColor)
+}
+strong {
+    color: pink;
+}
