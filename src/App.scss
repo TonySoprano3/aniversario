@@ -4,8 +4,14 @@ html {
 // background-image: url('./assets/paperBackground.jpg');
 // background-repeat: no-repeat;
 // background-size: cover;
+
+box-sizing: border-box;
 font-family: 'Rufina', serif;
 background-color: var(--sColor);
+}
+body {
+margin: 0;
+padding: 0;
 }
 h1 {
   font-size:clamp(3rem, 3.5vw, 4.5rem);
