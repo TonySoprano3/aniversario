@@ -4,7 +4,7 @@ import './App.scss'
 import { Home, NotFound, Dedication, End, Section } from './pages'
 import { Navbar } from './components'
 const LazyAbout = React.lazy(() => import('../src/pages/Story'))
-
+const LazyHome = React.lazy(() => import('../src/pages/Home'))
 function App() {
 
 
@@ -13,7 +13,11 @@ function App() {
      <Navbar/>
      <Routes >
 
-      <Route path='/' element={<Home/>}/>
+      <Route path='/' element={
+        <React.Suspense fallback='Loading...'>
+      <Home/>
+      </React.Suspense>
+      }/>
       <Route path='/historia' element={
           <React.Suspense fallback='Loading...'>
           <LazyAbout/>  
