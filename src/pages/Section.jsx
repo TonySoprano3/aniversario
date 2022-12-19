@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Section.scss'
 import Kirby from '../assets/Kirby.jpg'
+import BgKirby from '../assets/anniversary-bg.jpg'
 const Section = () => {
   return (
     <section className='section'>
