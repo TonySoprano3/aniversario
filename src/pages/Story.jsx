@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { BreakLine } from '../components';
 import '../styles/Story.scss';
-motion
+import Decoration from '../assets/DecotartionBg.png'
 const Story = () => {
   return (
     <>
@@ -14,10 +14,10 @@ const Story = () => {
  
     >
        <picture className='dec'>
-    <img src="src\assets\DecotartionBg.png" alt='PhothoDec'/>
+    <img src={Decoration} loading='lazy' alt='PhothoDec'/>
     </picture>
     <picture className='dec2'>
-    <img src="src\assets\DecotartionBg.png" alt='PhtoDec'/>
+    <img src={Decoration} loading='lazy' alt='PhtoDec'/>
     </picture>
       <h1>Historia <hr/></h1>
       <p>
