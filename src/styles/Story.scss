@@ -1,26 +1,37 @@
 .story {
     background-image: url('../assets/StoryBg.png');
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: 650px 350px;
     background-position: center bottom;
     text-align: center;
-    font-size: 1.8rem;
     color: var(--tColor);
     height: calc(100vh - 5rem);
     margin: 1rem 8rem;
     
-
+    p {
+        font-size: clamp(1.8rem, 2.5vw, 1.2rem);
+    }
+   
     h1 {
         color: var(--pinkColor);
         font-weight: 700;
+        letter-spacing: 4px;
         hr {
             margin: 0.3rem 45%;
             width: 10%;
             color: var(--mColor);
+
+          
         }
+        
     }
 
 }
+br {
+    margin: 1rem;
+    
+}
+
 .dec img {
     width: 150px;
     position: absolute;
@@ -36,15 +47,31 @@
     rotate: 120deg;
 }
 .cont {
-    height: 100vh;
+    height: 105vh;
     background-image: url('../assets/Quill.png');
     background-size: 200px;
-    background-repeat: no-repeat;
     background-position: bottom right;
+    background-repeat: no-repeat;
     text-align: center;
-   
+    margin:  8rem;
+    .hStory {
+        color: var(--pinkColor);
+        font-weight: 400;
+        font-size: 3rem;
+    }
+    h1 {
+        margin: 0;
+        color: var(--mColor);
+        letter-spacing: 8px;
+    }
+    hr {
+        width: 40%;
+        color: var(--pinkColor);
+        
+    }
     p {
-        font-size: clamp(1.8rem, 2.7vw, 3rem);
+        font-size: clamp(1.8rem, 2.3vw, 2.4rem);
+ 
     }
 }
 @media screen and (max-width: 480px) {
@@ -62,7 +89,12 @@
     .story {
         margin: 2rem;
         background-position: bottom;
-        background-size: auto;
+        background-size: 55vh;
        
+    }
+    .cont {
+        height: auto;
+        margin: 2rem;
+        padding-bottom:20rem;
     }
 }

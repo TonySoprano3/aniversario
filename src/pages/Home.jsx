@@ -24,7 +24,7 @@ const Home = () => {
         transition={{ duration: 3.5 }}
         >
       <section className='text'>
-    <h1>Hola Amor, Feliz Aniversario.<hr/></h1>
+    <h1>Hola Amor, Feliz Aniversario<hr/></h1>
     
      <p> Espero que todo esté saliendo bien y cuando leas esté mensaje la página se vea decente. Estoy escribiendo esto el 2 de Diciembre, tendría que haber comenzado antes a hacerla, pero bueno. Recién ahora se me ocurrió esta idea, y por más que tenga la idea tengo que pensar en todo el diseño y lo demás. Esta página podría ser infinita y no terminarla más por todas las cosas que podría escribir y estilar, pero voy a hacerla hasta donde el tiempo me dé y me sienta más conforme, seguramente me dé verguenza el resultado final porque nunca estoy conforme y más con vos que te mereces mucho más que esto.</p>
      💕
