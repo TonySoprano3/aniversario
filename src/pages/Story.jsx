@@ -14,10 +14,10 @@ const Story = () => {
  
     >
        <picture className='dec'>
-    <img src="src\assets\DecotartionBg.png" alt="" />
+    <img src="src\assets\DecotartionBg.png" loading='lazy'  />
     </picture>
     <picture className='dec2'>
-    <img src="src\assets\DecotartionBg.png" alt="" />
+    <img src="src\assets\DecotartionBg.png" loading='lazy' />
     </picture>
       <h1>Historia <hr/></h1>
       <p>
