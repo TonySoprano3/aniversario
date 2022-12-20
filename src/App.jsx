@@ -17,17 +17,17 @@ function App() {
      <Routes >
 
       <Route path='/' element={
-        <React.Suspense fallback={<FallBack/>}>
+        <React.Suspense fallback='{<h1>Cargando...</h1>'>
       <LazyHome/>
       </React.Suspense>
       }/>
       <Route path='/historia' element={
-          <React.Suspense fallback={<FallBack/>}>
+          <React.Suspense fallback='{<h1>Cargando...</h1>'>
           <LazyAbout/>  
           </React.Suspense>
     }/>
       <Route path='/continuacion'  element={
-         <React.Suspense fallback={<FallBack/>}>
+         <React.Suspense fallback='{<h1>Cargando...</h1>'>
       <LazySection/>
       </React.Suspense>
       }/>
