@@ -1,9 +1,9 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.scss'
-import { NotFound, Dedication, End, Section } from './pages'
+import { NotFound, Dedication, End } from './pages'
 import { Navbar } from './components'
-import FallBack from './components/FallBack'
+
 
 const LazyAbout = React.lazy(() => import('../src/pages/Story'))
 const LazyHome = React.lazy(() => import('../src/pages/Home'))
@@ -17,17 +17,17 @@ function App() {
      <Routes >
 
       <Route path='/' element={
-        <React.Suspense fallback='<h1>Cargando...</h1>'>
+        <React.Suspense fallback='Cargando...'>
       <LazyHome/>
       </React.Suspense>
       }/>
       <Route path='/historia' element={
-          <React.Suspense fallback='<h1>Cargando...</h1>'>
+          <React.Suspense fallback='Cargando...'>
           <LazyAbout/>  
           </React.Suspense>
     }/>
       <Route path='/continuacion'  element={
-         <React.Suspense fallback='<h1>Cargando...</h1>'>
+         <React.Suspense fallback='Cargando...'>
       <LazySection/>
       </React.Suspense>
       }/>
