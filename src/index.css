@@ -12,7 +12,9 @@
     /* Transition */
     --trans: 0.5s;
 }
-
+* {
+    image-rendering:optimizeSpeed;
+}
 html {
     font-size: 62.5%; /* 1rem = 10px */
 }

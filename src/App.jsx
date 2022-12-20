@@ -1,10 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.scss'
-import { Home, NotFound, Dedication, End, Section } from './pages'
+import { NotFound, Dedication, End, Section } from './pages'
 import { Navbar } from './components'
 const LazyAbout = React.lazy(() => import('../src/pages/Story'))
 const LazyHome = React.lazy(() => import('../src/pages/Home'))
+const LazySection = React.lazy(() => import('../src/pages/Section'))
 function App() {
 
 
@@ -15,7 +16,7 @@ function App() {
 
       <Route path='/' element={
         <React.Suspense fallback='Loading...'>
-      <Home/>
+      <LazyHome/>
       </React.Suspense>
       }/>
       <Route path='/historia' element={
@@ -24,7 +25,10 @@ function App() {
           </React.Suspense>
     }/>
       <Route path='/continuacion'  element={
-      <Section/>}/>
+         <React.Suspense fallback='Loading...'>
+      <LazySection/>
+      </React.Suspense>
+      }/>
       <Route path='/dedicatoria' element={<Dedication/>}/>
       <Route path='/final' element={<End/>}/>
       <Route path='*' element={<NotFound/>}/>
