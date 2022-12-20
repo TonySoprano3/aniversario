@@ -17,7 +17,7 @@ function App() {
      <Routes >
 
       <Route path='/' element={
-        <React.Suspense fallback={FallBack}>
+        <React.Suspense fallback={<FallBack/>}>
       <LazyHome/>
       </React.Suspense>
       }/>
