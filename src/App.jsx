@@ -22,12 +22,12 @@ function App() {
       </React.Suspense>
       }/>
       <Route path='/historia' element={
-          <React.Suspense fallback={FallBack}>
+          <React.Suspense fallback={<FallBack/>}>
           <LazyAbout/>  
           </React.Suspense>
     }/>
       <Route path='/continuacion'  element={
-         <React.Suspense fallback={FallBack}>
+         <React.Suspense fallback={<FallBack/>}>
       <LazySection/>
       </React.Suspense>
       }/>
