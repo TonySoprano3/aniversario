@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 85vh;
+    overflow-x: hidden;
 .text {
     text-align: center;
     font-size: clamp(1.8rem, 2.7vw, 2.2rem); 
