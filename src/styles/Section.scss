@@ -10,6 +10,8 @@
     font-size: clamp(1.8rem, 2.7vw, 3rem);
     overflow: hidden;
     p {
+        font-weight: 500;
+        font-style: italic;
         color: var(--pinkColor);
         -webkit-text-stroke: 1px rgb(255, 255, 255);
         margin: 8rem 8rem 8rem 0;

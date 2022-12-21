@@ -5,10 +5,13 @@
     height: 85vh;
     overflow-x: hidden;
 .text {
+    font-weight: 500;
     text-align: center;
     font-size: clamp(1.8rem, 2.7vw, 2.2rem); 
     margin: 0 5rem;
     h1 {
+        font-style: italic;
+        font-weight: 700;
         letter-spacing: 4px;
         margin: 0;
         font-size: clamp(3rem, 3.5vw, 4.5rem); 
@@ -22,6 +25,7 @@
 }   
 
 .ph-as {
+    font-weight: 700;
     text-align: center;
     color: var(--stColor);
     font-size: 1.2rem;
@@ -62,6 +66,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center; 
+    font-weight: 500;
     img {
         width: 25vw;
         margin: 0 auto;
@@ -79,7 +84,10 @@
         width: 66%;
         color: var(--mColor);
     }
-    b {
+    b { 
+        font-style: italic;
+        font-weight: bold;
+        letter-spacing: 4px;
         font-size: clamp(2rem, 2vw, 4rem);;
         color: pink;
         font-weight: bold;
