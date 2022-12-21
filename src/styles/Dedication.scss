@@ -1,9 +1,28 @@
 .dedication {
-    height: calc(100vh - 4.7rem);
+    height: 100vh;
     background-image: url('../assets/star-gradient-bg.jpg');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
         width: 45vw;
+    }
+   .dText {
+    text-align: center;
+    h1 {
+        margin: 0;
+    }
+    p {
+        font-size: clamp(1.8rem, 2.5vw, 3rem);
+    }
+   }
+}
+@media screen and (max-width: 700px) {
+    .dedication {
+    
+        height: 100vh;
     }
 }

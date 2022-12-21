@@ -12,6 +12,7 @@ nav  {
         display: none;
     }
     ul {
+
     height: calc(6vh - 1rem);
     gap: 1rem;
     list-style: none;
@@ -42,6 +43,7 @@ nav  {
         display: flex;
         
          ul {
+            
             margin: 0;
             width: 100%;
             align-items: center;
@@ -59,6 +61,7 @@ nav  {
             clip-path: circle(0 at center);
         }
         .navLabel {
+            box-shadow: 0px 3px 6px -3px rgba(0,0,0,0.75);
             display: block;
             cursor: pointer;
             width: 100vw;
