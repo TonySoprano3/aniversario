@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Dedication.scss'
-import Kirbys from '../assets/Kirbys.png'
+import Kirbys from '../assets/Kirbys.webp'
 import { motion } from 'framer-motion'
 
 const Dedication = () => {

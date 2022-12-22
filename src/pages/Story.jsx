@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { BreakLine } from '../components';
 import '../styles/Story.scss';
-import Decoration from '../assets/DecotartionBg.png'
+import Decoration from '../assets/DecotartionBg.webp'
 const Story = () => {
   return (
     <>

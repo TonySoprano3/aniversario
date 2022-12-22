@@ -1,8 +1,8 @@
 import {motion } from 'framer-motion'
 import { BreakLine } from '../components'
 import '../styles/Home.scss'
-import Hearth from '../assets/Hearth.png'
-import FirtsPhoto from '../assets/Foto1.jpg'
+import Hearth from '../assets/Hearth.webp'
+import FirtsPhoto from '../assets/Foto1.webp'
 const Home = () => {
   return (
     <>

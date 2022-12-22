@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Continue.scss'
-import Kirby from '../assets/Kirby.jpg'
-import BgKirby from '../assets/anniversary-bg.jpg'
+import Kirby from '../assets/Kirby.webp'
+import BgKirby from '../assets/anniversary-bg.webp'
 import { motion } from 'framer-motion'
 
 const Section = () => {
