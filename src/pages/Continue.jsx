@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Section.scss'
+import '../styles/Continue.scss'
 import Kirby from '../assets/Kirby.jpg'
 import BgKirby from '../assets/anniversary-bg.jpg'
 import { motion } from 'framer-motion'

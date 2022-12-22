@@ -7,7 +7,7 @@ import { Navbar } from './components'
 
 const LazyAbout = React.lazy(() => import('../src/pages/Story'))
 const LazyHome = React.lazy(() => import('../src/pages/Home'))
-const LazySection = React.lazy(() => import('../src/pages/Section'))
+const LazySection = React.lazy(() => import('../src/pages/Continue'))
 function App() {
 
 

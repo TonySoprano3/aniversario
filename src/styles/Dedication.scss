@@ -1,5 +1,7 @@
 .dedication {
-    height: 100vh;
+    
+    overflow-y: hidden;
+    height: calc(100vh - 4.6rem);
     background-image: url('../assets/star-gradient-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -7,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     img {
         width: 45vw;
     }
@@ -14,17 +17,19 @@
     text-align: center;
     margin-right: 2rem;
     h1 {
+        font-style: italic;
+        font-weight: 500;
+        font-size: clamp(3.5rem, 3.5vw, 5rem);
+        -webkit-text-stroke: 0.4px #fff;
         margin: 0;
         color: var(--pinkColor);
     }
-    hr {
-        width: 15%;
-        padding: 0;
-        color: var(--mColor);
-    }
-    p {
-        font-weight: 300;
-        font-size: clamp(1.8rem, 2.5vw, 3rem);
+
+    p { 
+        -webkit-text-stroke: 0.7px #fff;
+        color: var(--pinkColor);
+        font-weight: 500;
+        font-size: clamp(2.7rem, 2.3vw, 2.2rem);
     }
    }
 }
