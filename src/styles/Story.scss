@@ -1,7 +1,7 @@
 .story {
     background-image: url('../assets/StoryBg.webp');
     background-repeat: no-repeat;
-    background-size: 55vw 65vh;
+    background-size: 55vw 60vh;
     background-position: center bottom;
     text-align: center;
     color: var(--tColor);
@@ -13,7 +13,7 @@
     }
    
     h1 {
-        font-size: clamp(3.5rem, 3.5vw, 5rem);
+        font-size: clamp(5rem, 3.5vw, 5rem);
         color: var(--pinkColor);
         font-weight: 700;
         letter-spacing: 4px;
@@ -50,7 +50,7 @@ br {
 }
 .cont {
     height: 105vh;
-    background-image: url('../assets/Quill.png');
+    background-image: url('../assets/Quill.webp');
     background-size: 200px;
     background-position: bottom right;
     background-repeat: no-repeat;
