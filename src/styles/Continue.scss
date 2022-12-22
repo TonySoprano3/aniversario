@@ -23,6 +23,7 @@
     .section {
     height: 100vh;
     flex-direction: column;
+    justify-content: flex-end;
     p {
         margin-left: 8rem;
     }
