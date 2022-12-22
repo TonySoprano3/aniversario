@@ -38,6 +38,10 @@
     
         height: 100vh;
         flex-direction: column;
+        img {
+            margin-top: 1rem;
+            width: 70vw;
+        }
         .dText {
             margin: 0;
         }
