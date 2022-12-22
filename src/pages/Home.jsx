@@ -7,11 +7,12 @@ const Home = () => {
   return (
     <>
     <motion.img className='hrt' loading='lazy'  src={Hearth}  alt="Hearth"
+    initial={{ scale: 0.78 }}
     transition={{ type: 'spring', bounce: 0.3 ,duration: 4}}
    
-    animate={{scale: [1,2,2.5,3,0],
+    animate={{
       rotate: 360,
-      end: false ,opacity: 0
+        opacity: 0
     }}
     
   
